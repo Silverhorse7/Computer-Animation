@@ -1,0 +1,4 @@
+repository "Advanture-Run-main@Silverhorse7@cloud"
+  path "/"
+    br "/main"
+    co "/main"
