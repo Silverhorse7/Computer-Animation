@@ -86,40 +86,47 @@ class TicTacToe:
                 return False
         return True
 
-    def minimax(self, board, depth, player):
+    def minimax(self, board, depth, player, alpha, beta):
 
         memo_key = (tuple(board.board), depth, player)
         if memo_key in board.memoization:
             return board.memoization[memo_key]
         
-        if player == "O":
-            best = -float('inf')
-        else:
-            best = float('inf')
-        
         if board.checkWin() or not board.availableMoves():
             if board.checkWin() == "O":
-                return_value = 100 + depth # Faster Win
+                return_value = 100 + depth # Prefer faster win
             elif board.checkWin() == "X":
-                return_value = depth # Slower Loss
+                return_value = depth # Prefer slower loss
             else:
                 return_value = 0
             
             board.memoization[memo_key] = return_value
             return return_value
 
-        for move in board.availableMoves():
-            board.makeMove(move, player)
-            if player == "O":
-                val = self.minimax(board, depth - 1, changePlayer(player))
-                best = max(best, val)
-            else:
-                val = self.minimax(board, depth - 1, changePlayer(player))
-                best = min(best, val)
-            board.makeMove(move, " ")  # Undo the move
+        if player == "O":
+            value = -float('inf')
+            for move in board.availableMoves():
+                board.makeMove(move, player)
+                value = max(value, self.minimax(board, depth - 1, changePlayer(player), alpha, beta))
+                board.makeMove(move, " ")  # Undo the move
 
-        board.memoization[memo_key] = best
-        return best
+                alpha = max(alpha, value) 
+                if alpha >= beta:
+                    break  # Beta cut-off
+
+        else:
+            value = float('inf')
+            for move in board.availableMoves():
+                board.makeMove(move, player)
+                value = min(value, self.minimax(board, depth - 1, changePlayer(player), alpha, beta))
+                board.makeMove(move, " ")  # Undo the move
+
+                beta = min(beta, value) 
+                if beta <= alpha:
+                    break  # Alpha cut-off
+
+        board.memoization[memo_key] = value
+        return value
 
 
 def changePlayer(player):
@@ -134,15 +141,21 @@ def make_best_move(board, depth, player):
     best_val = -float('inf')
     best_move = None
     moves = board.availableMoves()
+    alpha, beta = -float('inf'), float('inf')
 
     for move in moves:
         board.makeMove(move, player)
-        move_val = board.minimax(board, depth-1, changePlayer(player))
+        move_val = board.minimax(board, depth-1, changePlayer(player), alpha, beta)
         board.makeMove(move, " ")  # Undo the move
 
-        if move_val > best_val:
+        if (player == 'O' and move_val > best_val) or (player == 'X' and move_val < best_val):
             best_val = move_val
             best_move = move
+            if player == 'O':
+                alpha = max(alpha, best_val)
+            else:
+                beta = min(beta, best_val)
+
     return best_move
 
 
