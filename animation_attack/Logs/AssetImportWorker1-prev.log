@@ -1,0 +1,479 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.27f1 (73effa14754f) revision 7598074'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 8064 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity Hub\2022.3.27f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+E:/DEBI/unity/animation_attack
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+64817
+Successfully changed project path to: E:/DEBI/unity/animation_attack
+E:/DEBI/unity/animation_attack
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14648] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 2495344323 [EditorId] 2495344323 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-897APN4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [14648] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 2495344323 [EditorId] 2495344323 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-897APN4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 595.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.27f1 (73effa14754f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity Hub/2022.3.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/DEBI/unity/animation_attack/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce MX130 (ID=0x174d)
+    Vendor:   NVIDIA
+    VRAM:     4054 MB
+    Driver:   31.0.15.3667
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity Hub/2022.3.27f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity Hub/2022.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity Hub/2022.3.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity Hub/2022.3.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity Hub/2022.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.036418 seconds.
+- Loaded All Assemblies, in  0.982 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.449 seconds
+Domain Reload Profiling: 1429ms
+	BeginReloadAssembly (269ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (151ms)
+	LoadAllAssembliesAndSetupDomain (480ms)
+		LoadAssemblies (260ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (445ms)
+			TypeCache.Refresh (443ms)
+				TypeCache.ScanAssembly (395ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (449ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (342ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (232ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.857 seconds
+Refreshing native plugins compatible for Editor in 3.64 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.677 seconds
+Domain Reload Profiling: 3526ms
+	BeginReloadAssembly (287ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (1386ms)
+		LoadAssemblies (1222ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (339ms)
+			TypeCache.Refresh (295ms)
+				TypeCache.ScanAssembly (269ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1678ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1203ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (20ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (151ms)
+			ProcessInitializeOnLoadAttributes (950ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 4.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3094 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (57.6 KB). Loaded Objects now: 3554.
+Memory consumption went from 121.1 MB to 121.1 MB.
+Total: 13.075200 ms (FindLiveObjects: 0.491500 ms CreateObjectMapping: 0.337000 ms MarkObjects: 8.287000 ms  DeleteObjects: 3.944800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 435836.242233 seconds.
+  path: Assets/Ch44_Body.mat
+  artifactKey: Guid(cf3774fe4eb80c64391116c662ca9d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ch44_Body.mat using Guid(cf3774fe4eb80c64391116c662ca9d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8191dececed67de57cf08488553a19c0') in 0.451161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 20.823036 seconds.
+  path: Assets/Ch44_1001_Diffuse.png
+  artifactKey: Guid(5f3e5710b5ae9b748a763c7f07227c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ch44_1001_Diffuse.png using Guid(5f3e5710b5ae9b748a763c7f07227c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0f919f40aa6499c4d796fe52416c31') in 0.066816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Ch44_1002_Glossiness.png
+  artifactKey: Guid(eb4730a790d39e04285dfbd9e2ca9f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ch44_1002_Glossiness.png using Guid(eb4730a790d39e04285dfbd9e2ca9f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c3adeb822c13f7e345055996bff247') in 0.057122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Ch44_1001_Specular.png
+  artifactKey: Guid(9399ba3d0a38f67439c110c2c8ffcf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ch44_1001_Specular.png using Guid(9399ba3d0a38f67439c110c2c8ffcf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d11ba82146e66942006847b31b0b935') in 0.023337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Ch44_1002_Diffuse.png
+  artifactKey: Guid(139e8f303ce662f4496f8cad1cc27092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ch44_1002_Diffuse.png using Guid(139e8f303ce662f4496f8cad1cc27092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9e5ba95584825be9a3f6ba53c8b959') in 0.025658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Ch44_1001_Emissive.png
+  artifactKey: Guid(713527305926b7b4880ae6ef86c4016a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ch44_1001_Emissive.png using Guid(713527305926b7b4880ae6ef86c4016a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8b6d76a8f7bd0064c031300ff4a2d4') in 0.019415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 627.443405 seconds.
+  path: Assets/Ch44_1001_Diffuse.png
+  artifactKey: Guid(73699cbd965fd0a419a82aafb8012d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ch44_1001_Diffuse.png using Guid(73699cbd965fd0a419a82aafb8012d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f56db3468f1c6dbac99db878292a2d7') in 0.167921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Ch44_1001_Normal.png
+  artifactKey: Guid(d73dba7dbaf873d429372b1ea15a04a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ch44_1001_Normal.png using Guid(d73dba7dbaf873d429372b1ea15a04a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15a76da88e7ec001ff155b3ead47008') in 0.049570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Ch44_1001_Glossiness.png
+  artifactKey: Guid(6cbe1a4691f3e4a4399635dae8e8d80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ch44_1001_Glossiness.png using Guid(6cbe1a4691f3e4a4399635dae8e8d80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e5878ec218f896581aa2684a9a3fe4') in 0.071414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Ch44_1002_Emissive.png
+  artifactKey: Guid(7304b8152c025074cb0ac3f9c8794c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ch44_1002_Emissive.png using Guid(7304b8152c025074cb0ac3f9c8794c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40252b188939fcdcbb0bfec36bff62f7') in 0.062845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Ch44_1002_Normal.png
+  artifactKey: Guid(3292a3d2e63d0aa44982ec9c9cde7485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ch44_1002_Normal.png using Guid(3292a3d2e63d0aa44982ec9c9cde7485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ecca3dd936e3439942356570b661ef') in 0.042076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 938.039152 seconds.
+  path: Assets/Creature NPC Pack/left turn 45.fbx
+  artifactKey: Guid(f766f6f4c89b19843907b36d66906d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creature NPC Pack/left turn 45.fbx using Guid(f766f6f4c89b19843907b36d66906d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44dc3c326a385d1d85eae6df15582be5') in 0.050356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Creature NPC Pack/mutant left turn 45.fbx
+  artifactKey: Guid(5d7a6126e0dc6c04ca984d6ee4cf320b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creature NPC Pack/mutant left turn 45.fbx using Guid(5d7a6126e0dc6c04ca984d6ee4cf320b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1afd96076673a98598d82174ed9a264e') in 0.006361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Creature NPC Pack/mutant jumping.fbx
+  artifactKey: Guid(2c1dfcf5aa21a3e47ba31964ab1ed832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creature NPC Pack/mutant jumping.fbx using Guid(2c1dfcf5aa21a3e47ba31964ab1ed832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24f4431b5ed9dd4963d0641a81ac3cc') in 0.008895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Creature NPC Pack/mutant walking.fbx
+  artifactKey: Guid(5b0eb70dca27fc64e938876f244ff1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creature NPC Pack/mutant walking.fbx using Guid(5b0eb70dca27fc64e938876f244ff1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af470d6d5cc6e5ebc6b6a6379114a5a9') in 0.006714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Creature NPC Pack/mutant breathing idle.fbx
+  artifactKey: Guid(7881b50b3dda9be4e91d6f5475c411e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creature NPC Pack/mutant breathing idle.fbx using Guid(7881b50b3dda9be4e91d6f5475c411e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714696c3240c110172a85d410cec5d62') in 0.006899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Creature NPC Pack/mutant swiping.fbx
+  artifactKey: Guid(d8ad33008c47a1f4abb364edc9e8195c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creature NPC Pack/mutant swiping.fbx using Guid(d8ad33008c47a1f4abb364edc9e8195c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d76ecacfb54287da051c07a4a94dc5') in 0.006913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Creature NPC Pack/mutant right turn 45 (2).fbx
+  artifactKey: Guid(c370d4e8e084e364da8067dc5404034f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creature NPC Pack/mutant right turn 45 (2).fbx using Guid(c370d4e8e084e364da8067dc5404034f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d208e3f81bd257c2125e200d8fd0ff') in 0.005189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Creature NPC Pack/mutant flexing muscles.fbx
+  artifactKey: Guid(0d70bc64896c98a4f81c1fd942c493fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creature NPC Pack/mutant flexing muscles.fbx using Guid(0d70bc64896c98a4f81c1fd942c493fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9da3905f7a1e043de2bf98a8b1b81e') in 0.004806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Creature NPC Pack/mutant right turn 45.fbx
+  artifactKey: Guid(4ae6313894a3d2f438f6fc960de58ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creature NPC Pack/mutant right turn 45.fbx using Guid(4ae6313894a3d2f438f6fc960de58ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eafe1f16179e5a87c82a487ca100606f') in 0.005429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 21.465406 seconds.
+  path: Assets/Creature NPC Pack/Ch44_Body.mat
+  artifactKey: Guid(d29109afc6649064c979763273263041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creature NPC Pack/Ch44_Body.mat using Guid(d29109afc6649064c979763273263041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430d08f4c8af880dd3bd72705e28c862') in 0.032942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Creature NPC Pack/Ch44_body1.mat
+  artifactKey: Guid(77051a2f6407e084e88405e045126628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creature NPC Pack/Ch44_body1.mat using Guid(77051a2f6407e084e88405e045126628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f96ae2f57d6cc8b2bb330899ee8f3f') in 0.012673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 379.064613 seconds.
+  path: Assets/Creature NPC Pack/mutant left turn 45.fbx
+  artifactKey: Guid(5d7a6126e0dc6c04ca984d6ee4cf320b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creature NPC Pack/mutant left turn 45.fbx using Guid(5d7a6126e0dc6c04ca984d6ee4cf320b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d63bc9c6b87d29d01d4510a24b58a2') in 0.009330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Creature NPC Pack/mutant walking.fbx
+  artifactKey: Guid(5b0eb70dca27fc64e938876f244ff1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creature NPC Pack/mutant walking.fbx using Guid(5b0eb70dca27fc64e938876f244ff1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acfbc527abb707a94ce6b026dcf3d8b4') in 0.006818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Creature NPC Pack/mutant right turn 45.fbx
+  artifactKey: Guid(4ae6313894a3d2f438f6fc960de58ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creature NPC Pack/mutant right turn 45.fbx using Guid(4ae6313894a3d2f438f6fc960de58ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab58f128e40db33c1ccbed4db04a0e0') in 0.009388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 50.440777 seconds.
+  path: Assets/Creature NPC Pack/mutant breathing idle.fbx
+  artifactKey: Guid(7881b50b3dda9be4e91d6f5475c411e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creature NPC Pack/mutant breathing idle.fbx using Guid(7881b50b3dda9be4e91d6f5475c411e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '107be1bb2317aa8a93d307b0e0e70f78') in 0.007485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Creature NPC Pack/mutant flexing muscles.fbx
+  artifactKey: Guid(0d70bc64896c98a4f81c1fd942c493fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creature NPC Pack/mutant flexing muscles.fbx using Guid(0d70bc64896c98a4f81c1fd942c493fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c1fcf81990c09c5167259964a38a16') in 0.009603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 460.837811 seconds.
+  path: Assets/Creature NPC Pack/Ch44_1001_Diffuse.png
+  artifactKey: Guid(229dc38b0daa1e945b8d24b3b6bf676a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creature NPC Pack/Ch44_1001_Diffuse.png using Guid(229dc38b0daa1e945b8d24b3b6bf676a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d4589ad42dec4c69f1cda23ceeb85d') in 0.100708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Creature NPC Pack/Ch44_1001_Emissive.png
+  artifactKey: Guid(1fd5e677234e5e5489fa9571428283dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creature NPC Pack/Ch44_1001_Emissive.png using Guid(1fd5e677234e5e5489fa9571428283dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309b13e07e22b7d40f4e9d458b25574c') in 0.029983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Creature NPC Pack/Ch44_1002_Normal.png
+  artifactKey: Guid(26f54afdfd1d2a14eaeaecdf1ac3434c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creature NPC Pack/Ch44_1002_Normal.png using Guid(26f54afdfd1d2a14eaeaecdf1ac3434c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db51c2057a778afe9e769607beb26d9') in 0.028788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Creature NPC Pack/Ch44_1001_Normal.png
+  artifactKey: Guid(02057ac8227edeb4eb732e99ca5a292e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creature NPC Pack/Ch44_1001_Normal.png using Guid(02057ac8227edeb4eb732e99ca5a292e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e24882fa1d1a0f09ee875b330c2f1a3') in 0.028168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Creature NPC Pack/Ch44_1001_Specular.png
+  artifactKey: Guid(7e19724ead0144345870ea0dde6fe365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creature NPC Pack/Ch44_1001_Specular.png using Guid(7e19724ead0144345870ea0dde6fe365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3099e2a6ca32c0b7326feecda6b788') in 0.018793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Creature NPC Pack/Ch44_1002_Specular.png
+  artifactKey: Guid(5c31f0e7fb8388d44af10b9701744e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creature NPC Pack/Ch44_1002_Specular.png using Guid(5c31f0e7fb8388d44af10b9701744e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c94f8991e2eb56b660643337ad15a7e') in 0.025329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Creature NPC Pack/Ch44_1002_Glossiness.png
+  artifactKey: Guid(812f1924ac7f1a347ba854a89184ca08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creature NPC Pack/Ch44_1002_Glossiness.png using Guid(812f1924ac7f1a347ba854a89184ca08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231474ad5a835368a6e177226cd7338a') in 0.019648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Creature NPC Pack/Ch44_1002_Diffuse.png
+  artifactKey: Guid(fb2df2e398a04c94daf52e90b7e38d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creature NPC Pack/Ch44_1002_Diffuse.png using Guid(fb2df2e398a04c94daf52e90b7e38d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69a8260d9967a9b774ab9262b7ada25') in 0.019114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Creature NPC Pack/Ch44_1002_Emissive.png
+  artifactKey: Guid(83e9c8bcd42e132489b8b2d27aa97644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creature NPC Pack/Ch44_1002_Emissive.png using Guid(83e9c8bcd42e132489b8b2d27aa97644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbfd50ae670afe45448e427a4bc178c') in 0.020304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.145113 seconds.
+  path: Assets/Creature NPC Pack/Ch44_1002_Normal.png
+  artifactKey: Guid(26f54afdfd1d2a14eaeaecdf1ac3434c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Creature NPC Pack/Ch44_1002_Normal.png using Guid(26f54afdfd1d2a14eaeaecdf1ac3434c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea41b7f2a5a8610ea99743d74669879') in 0.116565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
