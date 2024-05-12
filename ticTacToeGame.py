@@ -53,7 +53,7 @@ class TicTacToe:
         if self.board[position] == " ":
             self.board[position] = player
             return True
-        elif self.board[position] != " " and player is " ":
+        elif self.board[position] != " " and player == " ":
             self.board[position] = player
             return True
         else:
@@ -91,11 +91,12 @@ class TicTacToe:
         else:
             best = float('inf')
 
-        if board.checkWin() or depth == 0 or not board.availableMoves():
+        # TODO: Check for depth 
+        if board.checkWin() or not board.availableMoves():
             if board.checkWin() == "O":
-                return 100
+                return 100 + depth # Faster Win
             elif board.checkWin() == "X":
-                return -100
+                return depth # Shorter Loss
             else:
                 return 0
 
