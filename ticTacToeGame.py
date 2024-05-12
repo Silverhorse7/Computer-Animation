@@ -8,6 +8,7 @@ class TicTacToe:
         self.board = [" ", " ", " ",
                       " ", " ", " ",
                       " ", " ", " "]
+        self.memoization = {}
 
     def show(self):
         """Format and print board"""
@@ -86,19 +87,26 @@ class TicTacToe:
         return True
 
     def minimax(self, board, depth, player):
+
+        memo_key = (tuple(board.board), depth, player)
+        if memo_key in board.memoization:
+            return board.memoization[memo_key]
+        
         if player == "O":
             best = -float('inf')
         else:
             best = float('inf')
-
-        # TODO: Check for depth 
+        
         if board.checkWin() or not board.availableMoves():
             if board.checkWin() == "O":
-                return 100 + depth # Faster Win
+                return_value = 100 + depth # Faster Win
             elif board.checkWin() == "X":
-                return depth # Shorter Loss
+                return_value = depth # Slower Loss
             else:
-                return 0
+                return_value = 0
+            
+            board.memoization[memo_key] = return_value
+            return return_value
 
         for move in board.availableMoves():
             board.makeMove(move, player)
@@ -110,6 +118,7 @@ class TicTacToe:
                 best = min(best, val)
             board.makeMove(move, " ")  # Undo the move
 
+        board.memoization[memo_key] = best
         return best
 
 
@@ -134,7 +143,6 @@ def make_best_move(board, depth, player):
         if move_val > best_val:
             best_val = move_val
             best_move = move
-
     return best_move
 
 
