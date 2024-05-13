@@ -94,9 +94,9 @@ class TicTacToe:
         
         if board.checkWin() or not board.availableMoves():
             if board.checkWin() == "O":
-                return_value = 100 + depth # Prefer faster win
+                return_value = 100 - depth # Prefer faster win
             elif board.checkWin() == "X":
-                return_value = depth # Prefer slower loss
+                return_value = -depth # Prefer slower loss
             else:
                 return_value = 0
             
@@ -107,7 +107,7 @@ class TicTacToe:
             value = -float('inf')
             for move in board.availableMoves():
                 board.makeMove(move, player)
-                value = max(value, self.minimax(board, depth - 1, changePlayer(player), alpha, beta))
+                value = max(value, self.minimax(board, depth + 1, changePlayer(player), alpha, beta))
                 board.makeMove(move, " ")  # Undo the move
 
                 alpha = max(alpha, value) 
@@ -118,7 +118,7 @@ class TicTacToe:
             value = float('inf')
             for move in board.availableMoves():
                 board.makeMove(move, player)
-                value = min(value, self.minimax(board, depth - 1, changePlayer(player), alpha, beta))
+                value = min(value, self.minimax(board, depth + 1, changePlayer(player), alpha, beta))
                 board.makeMove(move, " ")  # Undo the move
 
                 beta = min(beta, value) 
@@ -145,7 +145,7 @@ def make_best_move(board, depth, player):
 
     for move in moves:
         board.makeMove(move, player)
-        move_val = board.minimax(board, depth-1, changePlayer(player), alpha, beta)
+        move_val = board.minimax(board, depth + 1, changePlayer(player), alpha, beta)
         board.makeMove(move, " ")  # Undo the move
 
         if (player == 'O' and move_val > best_val) or (player == 'X' and move_val < best_val):
@@ -176,7 +176,7 @@ if __name__ == '__main__':
             break
 
         print("Computer choosing move...")
-        ai_move = make_best_move(game, -1, "O")
+        ai_move = make_best_move(game, 0, "O")
         game.makeMove(ai_move, "O")
         game.show()
 
